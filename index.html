@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Valridge - Your Investment Manager</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main-navigationbar.css">
+
+  <!-- Add Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+</head>
+
+<body id="page-top">
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" class="widget-ticker" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "title": "S&P 500",
+        "proName": "OANDA:SPX500USD"
+      },
+      {
+        "title": "나스닥 100",
+        "proName": "OANDA:NAS100USD"
+      },
+      {
+        "title": "EUR/USD",
+        "proName": "FX_IDC:EURUSD"
+      },
+      {
+        "title": "BTC/USD",
+        "proName": "BITSTAMP:BTCUSD"
+      },
+      {
+        "title": "ETH/USD",
+        "proName": "BITSTAMP:ETHUSD"
+      }
+    ],
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "locale": "kr"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+  <!-- Masthead -->
+  <header class="masthead">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger logo" href="#page-top">
+          <img src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="report.html">reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="research.html">research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="http://finports.com/" target="_blank">finports</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselIndicators" class="slide carousel" data-ride="carousel">
+      <div class="carousel-container">
+        <div class="indicator-num">
+          <span class="indicator-limit">
+            / 03
+          </span>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="indicators-comment">
+          <span>\The Recently Issues</span></br>
+          <span>\Connect All Assets</span>
+        </div>
+      </div>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="indicators-num">
+            01
+          </div>
+          <div class="carousel-comment">
+            <a class="mast-comment" href="report.html">
+              <div class="mast-comment-main">
+                financial </br> reports
+              </div>
+              <div class="mast-comment-sub">
+                주식시장의 동향을 분석하여, 이슈를 정리해 투자자들에게 도움이 되는 안내서를 제공합니다.
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="indicators-num">
+            02
+          </div>
+          <div class="carousel-comment">
+            <a class="mast-comment" href="research.html">
+              <div class="mast-comment-main">
+                valridge </br> research
+              </div>
+              <div class="mast-comment-sub">
+                데이터를 이용해 시스템 트레이딩 알고리즘과 운용전략 등을 제공하며 향후 알고리즘 트레이딩 서비스를 제공할 예정입니다.
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="indicators-num">
+            03
+          </div>
+          <a class="carousel-comment" href="http://finports.com/" target="_blank">
+            <div class="mast-comment">
+              <div class="mast-comment-main">
+                finports </br> inc.
+              </div>
+              <div class="mast-comment-sub">
+                다양한 플랫폼을 통해 자산을 안전하고 빠르게 투자하도록 도와드립니다.
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <footer>
+    <div class="col-lg-4 footer-about">
+      <p class="footer-header">connect all assets!</p>
+      <span class="footer-span">Welcome to Valridge</span>
+      <p class="footer-comment">Valridge는 금융 기술적 분석을 통해 다양한 서비스를 제공하는 FinPorts 금융 연구실입니다.</p>
+    </div>
+    <div class="col-lg-3 footer-mail-service">
+      <p class="footer-header">mailing service</p>
+      <span class="footer-span">valridge@finports.com</span>
+      <p class="footer-comment">문의사항은 메일로 연락주세요.</p>
+    </div>
+    <div class="col-lg-5 footer-copyright">
+      <p>Copyright © 2020 FinPorts Inc.</br> All Rights Reserved.</p>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.js"></script>
+
+</body>
+
+</html>
