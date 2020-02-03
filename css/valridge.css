@@ -9864,7 +9864,7 @@ footer {
 
 @media (min-width: 992px) {
   .footer-about {
-    /* padding-left: 16.5% !important; */
+    padding-left: 16.5% !important;
   }
 
   .footer-copyright {
@@ -9983,8 +9983,8 @@ footer {
 }
 
 .modal-main-content {
-  width: 40%;
-  height: 60%;
+  width: 30%;
+  height: 55%;
   margin: 1.75rem auto;
 }
 
@@ -10015,6 +10015,7 @@ footer {
   font-size: 16px;
   letter-spacing: -0.4px;
   color: #333333;
+  font-weight: 300;
 }
 
 .report-header {
@@ -10033,7 +10034,7 @@ footer {
 }
 
 .header-comment-sub {
-  margin-top: -15px;
+  margin-top: -10px;
   padding-bottom: 150px;
   font-family: "Montserrat";
   font-weight: 200;
@@ -10219,6 +10220,7 @@ footer {
 }
 
 .modal-content img {
+  margin-bottom: 10px;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
@@ -10282,8 +10284,12 @@ footer {
 .research-wrapper {
   display: table-cell;
   vertical-align: middle;
-  padding-top: 30%;
-  padding-bottom: 30%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.research-wrapper img {
+  margin-bottom: 10px;
 }
 
 .research-header-main {
@@ -10300,8 +10306,8 @@ footer {
 .research-header-sub {
   margin-top: 24px;
   color: #333;
-  font-weight: 300;
-  font-size: 16;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .research-footer-container {
