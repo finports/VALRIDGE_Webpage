@@ -9544,6 +9544,14 @@ hr.light {
   padding: 8rem 0;
 }
 
+@font-face {
+  font-family: "NanumSquare";
+}
+
+@font-face {
+  font-family: "Montserrat";
+}
+
 #mainNav {
   padding-top: 20px;
   min-width: 100%;
@@ -9557,9 +9565,9 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.4);
+  color: #fff;
   font-family: "Montserrat";
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.4vmin;
   padding: 0.75rem 0;
 }
@@ -9609,6 +9617,25 @@ hr.light {
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #3773dc;
+  }
+}
+
+@media (max-width: 991px) {
+  .divider {
+    display: none;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    background-color: rgba(55,115,220,0.9);
+  }
+
+  .nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-item:last-child {
+    border-bottom: none;
   }
 }
 
@@ -10014,6 +10041,13 @@ footer {
   }
 }
 
+@media (height: 812px) {
+  footer {
+    max-height: 24.5%;
+    background-color:  #000a18;
+  }
+}
+
 @media (max-width: 768px) {
   .footer-copyright {
     text-align: left;
@@ -10079,6 +10113,7 @@ footer {
 .header-comment-main {
   font-family: "Montserrat";
   text-transform: uppercase;
+  font-weight: 600;
   font-size: 48px;
   color: #fff;
 }
@@ -10101,6 +10136,12 @@ footer {
   opacity: 0.2;
   width: 100%;
   height: 1px;
+}
+
+@media (max-width: 768px) {
+  .divider {
+    display: none;
+  }
 }
 
 @media (width: 1024px) {
