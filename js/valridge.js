@@ -55,15 +55,9 @@
     }
   });
 
+  // Page Home Carousel
   $('.carousel').carousel({
     interval: 5000
-  });
-
-
-
-  $(document).ready(function() {
-    $(".modal-main").hide();
-    $(".modal-main").trigger('onload');
   });
 
 })(jQuery); // End of use strict
