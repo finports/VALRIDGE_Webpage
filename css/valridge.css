@@ -10435,6 +10435,10 @@ footer {
 }
 
 @media (max-width: 414px) {
+  .modal-content {
+    padding: 3rem 1rem;
+  }
+
   .header-comment-sub {
     margin: 0 auto;
     width: 80%;
