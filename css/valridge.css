@@ -9554,7 +9554,7 @@ hr.light {
 
 /* Navigation */
 #mainNav {
-  padding-top: 20px;
+  padding-top: 35px;
   min-width: 100%;
   background-color: transparent;
   transition: background-color 0.2s ease;
@@ -9638,11 +9638,6 @@ hr.light {
   .nav-item:last-child {
     border-bottom: none;
   }
-}
-
-.tradingview-widget-container {
-  position: relative;
-  z-index: 1000;
 }
 
 .logo {
@@ -10095,8 +10090,19 @@ footer {
 
 @media (min-width:1920px) {
   .divider {
-    margin-top: 7vh;
+    margin-top: 9vh;
   }
+}
+
+.nav-container {
+
+}
+
+.tradingview-widget-copyright {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
 }
 
 /* Divider End */
@@ -10157,7 +10163,7 @@ footer {
 
 .report-header {
   position: relative;
-  padding-top: 158px;
+  padding-top: 188px;
   text-align: center;
   width: 100%;
   background-image: url("../img/report-visual.png");

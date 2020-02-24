@@ -66,8 +66,3 @@
     color: #f4623a;
   }
 }
-
-.tradingview-widget-container {
-  position: relative;
-  z-index: 1000;
-}
